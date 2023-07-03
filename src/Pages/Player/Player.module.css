@@ -1,0 +1,33 @@
+.player{
+    height: 70vh;
+    margin: 3.5em 5em 3.5em 5em;
+    text-align: center;
+}
+
+@media (max-width: 820px){
+    .player iframe{
+        max-width:  100% !important;
+        max-height: 300% !important;
+    }
+}
+
+@media (max-width: 414px){
+    .player iframe{
+        max-width:  125% !important;
+        max-height: 300% !important;
+    }
+}
+
+@media (max-width: 375px){
+    .player iframe{
+        max-width:  100% !important;
+        max-height: 300% !important;
+    }
+}
+
+@media (max-width: 360px){
+    .player iframe{
+        max-width:  120% !important;
+        max-height: 300% !important;
+    }
+}

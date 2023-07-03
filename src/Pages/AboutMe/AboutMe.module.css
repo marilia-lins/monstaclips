@@ -1,0 +1,16 @@
+.text{
+    color: var(--red);
+    font-size: 1.7em;
+    font-weight: 600;
+    margin: 1em 3em 4em 3em;
+    text-align: center;
+}
+
+.text a{
+    color: rgb(202, 46, 46);
+    text-decoration: none;
+}
+
+.link{
+    margin: .3rem;
+}

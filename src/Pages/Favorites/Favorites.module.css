@@ -1,0 +1,33 @@
+.fave{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 3em;
+}
+
+.warning{
+    background-image: url("dust.gif");
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+@media (max-width: 540px){
+    .warning{
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+}
+
+@media (max-width: 414px){
+    .warning{
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+}
+
+@media (max-width: 375px){
+    .warning{
+        margin-left: 2em;
+    }
+}
+

@@ -1,0 +1,46 @@
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: var(--red);
+    width: 285px;
+    border-radius: 10px 10px 10px 10px;
+    transition: transform .2s;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    justify-items: center;
+    padding: 0 0 1em 0;
+}
+
+.card:hover{
+    transform: translate(0, -1rem);
+}
+
+.img{
+    width: 80%;
+    align-self: center;
+    padding-top: 1.5em;
+    cursor: pointer;
+}
+
+.card h2,
+.fave{
+    width: 1.3em;
+    padding: 0 1em;
+}
+
+h2{
+    padding-left: 1em;
+}
+
+.fave{
+    padding-left: 2em;
+    cursor: pointer;
+}
+
+.link{
+    text-decoration: none;
+    color: var(--preto);
+}

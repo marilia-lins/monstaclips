@@ -1,0 +1,19 @@
+.footer {
+    margin-top: 3em;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    display: flex;
+    justify-content: center;
+    background-color: var(--red);
+    box-shadow: 0 -5px 6px rgba(0, 0, 0, 0.08);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer h2 {
+    font-weight: 600;
+    font-size: 18px;
+    color: #000;
+    padding: 0.6em;
+}

@@ -1,0 +1,21 @@
+:root {
+  --logo: 'Monsta', sans-serif;
+  --font: 'WellrockSlab', sans-serif;
+  --red: rgb(201, 6, 6);
+  --fundo: #1a1818;
+}
+
+body {
+  background-color: var(--fundo);
+  margin: 0;
+  font-family: var(--font);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
