@@ -4,6 +4,10 @@
     text-align: center;
 }
 
+.player iframe{
+    margin-bottom: 7em;
+}
+
 @media (max-width: 820px){
     .player iframe{
         max-width:  100% !important;

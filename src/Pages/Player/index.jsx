@@ -30,15 +30,15 @@ const Player = ({title}) => {
             Assista ao Videoclipe de {videos.title}
         </Title>
         <section className={styles.player}>
-        <iframe 
-        width="800" 
-        height="100%" 
-        src={videos.link} 
-        title={videos.title}
-        frameborder="0" 
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-        allowfullscreen>
-        </iframe>
+            <iframe 
+            width="800" 
+            height="100%" 
+            src={videos.link} 
+            title={videos.title}
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            allowfullscreen>
+            </iframe>
         </section>
         </>
     )
