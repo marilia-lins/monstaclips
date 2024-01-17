@@ -11,7 +11,7 @@ const BasicPage = () => {
                 <FavoritesProvider>
                     <Outlet/>
                 </FavoritesProvider>
-            <Footer/>
+            
         </main>
 
     )
