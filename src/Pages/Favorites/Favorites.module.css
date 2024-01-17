@@ -5,6 +5,10 @@
     margin-bottom: 3em;
 }
 
+h4{
+    color: var(--red);
+}
+
 .warning{
     background-image: url("dust.gif");
     margin-top: 1.5em;
