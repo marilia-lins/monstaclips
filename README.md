@@ -6,8 +6,6 @@
 * View, favorite and play music videos from kpop group Monsta X
 * Data fetched from my-json-server
 
-## Getting Started
-
 ### Installing and running
 
 ```
